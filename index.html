@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF8" />
@@ -8,14 +8,14 @@
       @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap");
     </style>
   </head>
-  <body class="">
+  <body class="bg-gray-medium text-xl text-gray-dark">
     <!-- Resonsive outer div -->
-    <div class="flex flex-col lg:flex-row">
-      <div>
+    <div class="mt-36 flex flex-col gap-8 bg-gray-light px-4 pt-32 lg:flex-row">
+      <div class="w-[800px] space-y-8">
         <!-- svg -->
         <!-- Main text -->
-        <div>
-          <h1 class="text-3xl">Reviewers</h1>
+        <div class="space-y-4">
+          <h1 class="text-4xl font-semibold text-black">Reviewers</h1>
           <p>
             Reviewers is where people can access guidelines, checklists, and
             other tools to assist them in reviewing papers or manuscripts. It
@@ -24,36 +24,63 @@
           </p>
         </div>
         <!-- Checklist -->
-        <ul>
+        <ul class="space-y-2 text-sm">
           <li class="flex items-center">
-            <!-- svg -->
+            <img src="./res/Done_ring_round_fill.svg" alt="Checkbox" />
             <span>Checklist to Review an Academic Paper</span>
           </li>
           <li class="flex items-center">
-            <!-- svg -->
+            <img src="./res/Done_ring_round_fill.svg" alt="Checkbox" />
             <span>Peer Review Checklist</span>
           </li>
           <li class="flex items-center">
-            <!-- svg -->
+            <img src="./res/Done_ring_round_fill.svg" alt="Checkbox" />
             <span
               >Checklist for Editors, Reviewers, and Authors of SPIE
               Journals</span
             >
           </li>
         </ul>
-        <!-- Cards inside of relative box with absolute children -->
-        <div>
-          <div>
-            <div class="flex">
-              <!-- Google logo -->
-              <!-- Rating svg -->
-            </div>
-            <div>
-              <h3>Samantha Lee</h3>
-              <p>The checklist ensures that the review process is thorough</p>
+      </div>
+      <!-- Cards inside of relative box with absolute children -->
+      <div class="relative h-96 w-[600px]">
+        <!-- Google card -->
+        <div
+          class="absolute right-0 top-0 w-96 space-y-4 rounded-2xl bg-white px-8 py-6"
+        >
+          <div class="flex h-8 space-x-4">
+            <img src="./res/google-testimonial.png" alt="Google logo" />
+            <div class="flex items-center space-x-1">
+              <img src="./res/Star_fill.svg" alt="Star" />
+              <img src="./res/Star_fill.svg" alt="Star" />
+              <img src="./res/Star_fill.svg" alt="Star" />
+              <img src="./res/Star_fill.svg" alt="Star" />
+              <img src="./res/Star_fill_gray.svg" alt="Gray" />
             </div>
           </div>
-          <!-- second card -->
+          <div class="space-y-2 text-base">
+            <h3 class="font-semibold">Samantha Lee</h3>
+            <p>The checklist ensures that the review process is thorough</p>
+          </div>
+        </div>
+        <!-- Meta card -->
+        <div
+          class="absolute bottom-0 left-0 w-96 space-y-4 rounded-2xl bg-white px-8 py-6"
+        >
+          <div class="flex h-8 space-x-4">
+            <img src="./res/meta-testimonial.png" alt="Meta logo" />
+            <div class="flex items-center space-x-1">
+              <img src="./res/Star_fill.svg" alt="Star" />
+              <img src="./res/Star_fill.svg" alt="Star" />
+              <img src="./res/Star_fill.svg" alt="Star" />
+              <img src="./res/Star_fill.svg" alt="Star" />
+              <img src="./res/Star_fill_gray.svg" alt="Gray" />
+            </div>
+          </div>
+          <div class="space-y-2 text-base">
+            <h3 class="font-semibold">Samantha Lee</h3>
+            <p>The checklist ensures that the review process is thorough</p>
+          </div>
         </div>
       </div>
     </div>
