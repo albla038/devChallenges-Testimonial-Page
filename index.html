@@ -10,13 +10,15 @@
   </head>
   <body class="bg-gray-medium text-xl text-gray-dark">
     <!-- Resonsive outer div -->
-    <div class="mt-36 flex flex-col gap-8 bg-gray-light px-4 pt-32 lg:flex-row">
-      <div class="w-[800px] space-y-8">
-        <!-- svg -->
+    <div
+      class="mx-auto mt-36 flex w-[640px] flex-col gap-8 bg-gray-light px-4 py-36 lg:w-[1280px] lg:flex-row lg:px-[72px]"
+    >
+      <div class="space-y-8">
+        <span class="rounded-full bg-yellow p-3.5">⭐️</span>
         <!-- Main text -->
         <div class="space-y-4">
           <h1 class="text-4xl font-semibold text-black">Reviewers</h1>
-          <p>
+          <p class="leading-8">
             Reviewers is where people can access guidelines, checklists, and
             other tools to assist them in reviewing papers or manuscripts. It
             provides a structured approach to ensure that the review process is
@@ -24,16 +26,16 @@
           </p>
         </div>
         <!-- Checklist -->
-        <ul class="space-y-2 text-sm">
-          <li class="flex items-center">
+        <ul class="space-y-3 text-sm">
+          <li class="flex items-center space-x-2">
             <img src="./res/Done_ring_round_fill.svg" alt="Checkbox" />
             <span>Checklist to Review an Academic Paper</span>
           </li>
-          <li class="flex items-center">
+          <li class="flex items-center space-x-2">
             <img src="./res/Done_ring_round_fill.svg" alt="Checkbox" />
             <span>Peer Review Checklist</span>
           </li>
-          <li class="flex items-center">
+          <li class="flex items-center space-x-2">
             <img src="./res/Done_ring_round_fill.svg" alt="Checkbox" />
             <span
               >Checklist for Editors, Reviewers, and Authors of SPIE
@@ -42,44 +44,52 @@
           </li>
         </ul>
       </div>
-      <!-- Cards inside of relative box with absolute children -->
-      <div class="relative h-96 w-[600px]">
+      <!-- Card container -->
+      <div class="space-y-10">
         <!-- Google card -->
-        <div
-          class="absolute right-0 top-0 w-96 space-y-4 rounded-2xl bg-white px-8 py-6"
-        >
-          <div class="flex h-8 space-x-4">
-            <img src="./res/google-testimonial.png" alt="Google logo" />
-            <div class="flex items-center space-x-1">
-              <img src="./res/Star_fill.svg" alt="Star" />
-              <img src="./res/Star_fill.svg" alt="Star" />
-              <img src="./res/Star_fill.svg" alt="Star" />
-              <img src="./res/Star_fill.svg" alt="Star" />
-              <img src="./res/Star_fill_gray.svg" alt="Gray" />
+        <div class="flex justify-end">
+          <div
+            class="ml-48 w-[22rem] space-y-4 rounded-2xl bg-white px-10 py-8 shadow-sm"
+          >
+            <div class="flex h-8 space-x-4">
+              <img src="./res/google-testimonial.png" alt="Google logo" />
+              <div class="flex items-center space-x-1">
+                <img src="./res/Star_fill.svg" alt="Star" />
+                <img src="./res/Star_fill.svg" alt="Star" />
+                <img src="./res/Star_fill.svg" alt="Star" />
+                <img src="./res/Star_fill.svg" alt="Star" />
+                <img src="./res/Star_fill_gray.svg" alt="Gray" />
+              </div>
             </div>
-          </div>
-          <div class="space-y-2 text-base">
-            <h3 class="font-semibold">Samantha Lee</h3>
-            <p>The checklist ensures that the review process is thorough</p>
+            <div class="space-y-2 text-base">
+              <h3 class="font-semibold text-black">Samantha Lee</h3>
+              <div class="leading-7">
+                The checklist ensures that the review process is thorough
+              </div>
+            </div>
           </div>
         </div>
         <!-- Meta card -->
-        <div
-          class="absolute bottom-0 left-0 w-96 space-y-4 rounded-2xl bg-white px-8 py-6"
-        >
-          <div class="flex h-8 space-x-4">
-            <img src="./res/meta-testimonial.png" alt="Meta logo" />
-            <div class="flex items-center space-x-1">
-              <img src="./res/Star_fill.svg" alt="Star" />
-              <img src="./res/Star_fill.svg" alt="Star" />
-              <img src="./res/Star_fill.svg" alt="Star" />
-              <img src="./res/Star_fill.svg" alt="Star" />
-              <img src="./res/Star_fill_gray.svg" alt="Gray" />
+        <div class="flex">
+          <div
+            class="w-[22rem] space-y-4 rounded-2xl bg-white px-10 py-8 shadow-sm"
+          >
+            <div class="flex h-8 space-x-4">
+              <img src="./res/meta-testimonial.png" alt="Meta logo" />
+              <div class="flex items-center space-x-1">
+                <img src="./res/Star_fill.svg" alt="Star" />
+                <img src="./res/Star_fill.svg" alt="Star" />
+                <img src="./res/Star_fill.svg" alt="Star" />
+                <img src="./res/Star_fill.svg" alt="Star" />
+                <img src="./res/Star_fill.svg" alt="Gray" />
+              </div>
             </div>
-          </div>
-          <div class="space-y-2 text-base">
-            <h3 class="font-semibold">Samantha Lee</h3>
-            <p>The checklist ensures that the review process is thorough</p>
+            <div class="space-y-2 text-base">
+              <h3 class="font-semibold text-black">Rachel Patel</h3>
+              <div class="leading-7">
+                I highly recommend the Writecream Business Description
+              </div>
+            </div>
           </div>
         </div>
       </div>

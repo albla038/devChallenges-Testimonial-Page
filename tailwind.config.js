@@ -8,7 +8,7 @@ module.exports = {
       black: "#18181B",
       gray: {
         dark: "#52525A",
-        medium: "#D4D4D8",
+        medium: "#CCD5E0",
         light: "#FAFAF9",
       },
       white: "#FFFFFF",
@@ -21,4 +21,3 @@ module.exports = {
   },
   plugins: [],
 };
-
